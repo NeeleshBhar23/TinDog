@@ -1,0 +1,89 @@
+#title {
+     background-color: brown;
+}
+
+.container-fluid{
+     padding: 3% 6%;
+}
+h1{
+     color:aliceblue;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 3rem;
+     line-height: 1.5;
+}
+
+.title-image{
+     width: 50%;
+     transform: rotate(25deg);
+}
+
+#features {
+     text-align: center;
+     padding: 7% 15%;
+     background-color: rgb(208, 246, 246);
+}
+i{
+     color: coral;
+}
+i:hover{
+     color: red;  
+}
+h3{
+     text-align: center;
+     color: black;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+     padding: 2% 5%;
+     text-align: center;
+     color: rgb(223, 158, 61);
+}
+#testimonials {
+     
+     text-align: center;
+     background-color: coral ;
+     padding: 5% 15%;
+     color:aliceblue;
+}
+.dog-img{
+     width: 10%;
+     border-radius: 50px;
+}
+#press{
+     background-color: coral;
+     text-align: center;
+     padding-bottom: 3%;
+}
+.press-logo {
+     margin: 20px 20px;
+     width: 15%;
+}
+@media (max-width: 990px) {
+     #title{
+          text-align: center;
+     }
+     .title-image{
+          position: static;
+          transform: rotate(0deg);
+     }
+     
+}
+h2{
+     text-align: center;
+}
+
+#cta {
+     background-color: coral;
+     
+     text-align: center;
+     padding: 5% 10% ;
+     font-size: 30px;
+     
+}
+.h3-cta {
+     padding-bottom: 3%;
+     color: #fff;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 70px;
+     
+}
